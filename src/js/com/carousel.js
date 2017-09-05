@@ -34,7 +34,6 @@
             this.$carousel.css('left',-this.imgwidth);
             $carousel.append($lis.first().clone());
             $carousel.prepend($lis.last().clone());
-            console.lg(14);
 
         };
 
@@ -121,6 +120,7 @@
     })();
 
     module.exports=Carousel;
+    console.log(22);
 
 
 
